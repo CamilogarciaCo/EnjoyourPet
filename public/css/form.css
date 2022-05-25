@@ -1,0 +1,44 @@
+.modal-container {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*
+  pointer-events: none;
+  opacity: 0;  
+  transition: opacity 0.3s ease;*/
+}
+
+.modal {
+    width: 50%;
+    height: 60%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+.conteiner-form form{
+    display: table;
+    background: #A8C7D6;
+    height:600px;
+    width: 100%;
+  
+}
+
+
+.conteiner-form{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+
+
